@@ -1,0 +1,239 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:0px;
+    font-weight: 400;
+    font-size:25px;
+}
+#texte-supinfo{
+	margin-left: 10px;
+}
+
+nav{
+    background-color: #3D2683;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.image-nav{
+    
+    align-items: center;
+    justify-content: space-around;
+    height:20px ;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: black;
+    text-decoration:none;
+
+}
+.image-nav:hover{
+    background-color: gray;
+}
+h1{
+    text-align: center;
+}
+.section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    justify-content: space-evenly;
+    text-align: center;
+}
+#logo-supinfo{
+	margin-left: 10px;
+    height: 100px;
+    width: 100px;
+}
+.img{
+    height: 23vh;
+    width: 40vh;
+    border: 1px solid black;
+    max-width: 100%;
+
+}
+.img:hover{
+    z-index: 10;
+    transform: scale(1.1) rotate(0.001deg);
+    transition: all 1.5s ease;
+    animation: zoom-in zoom-out 1s ease infinite;
+    transform: 1s;
+}
+legend{
+    text-align: center;
+    font-size: 5vh;
+}
+hr{
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;
+}
+.ai{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+fieldset{
+    border: none;
+}
+#hr{
+    border-color: black;
+}
+#hr1{
+    border-color: #3D2683;
+}
+.ai-pic{
+    background-image: url("https://i.postimg.cc/4n4KN3sP/ai-Copie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150vh;
+    height: 40vh;
+}
+.bd-pic{
+    background-image: url("https://i.postimg.cc/Mnff2rq8/big-data.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150vh;
+    height: 40vh;
+}
+.ci-pic{
+    background-image: url("https://i.postimg.cc/K3c36Gv9/cloud-infrastructure.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150vh;
+    height: 31vh;
+}
+.cs-pic{
+    background-image: url("https://i.postimg.cc/yD29DCvd/cloud-security.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150vh;
+    height: 31vh;
+}
+.pm-pic{
+    background-image: url("https://i.postimg.cc/2LNL5j5F/project-management.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150vh;
+    height: 31vh;
+}
+.is-pic{
+    background-image: url("https://i.postimg.cc/cgRQqk7J/information-systems.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150vh;
+    height: 31vh;
+}
+.sales-pic{
+    background-image: url("https://i.postimg.cc/3kx72M4X/sales.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150vh;
+    height: 31vh;
+}
+.web-pic{
+    background-image: url("https://i.postimg.cc/pmhGwkgN/web.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150vh;
+    height: 31vh;
+}
+.hs-pic{
+    background-image: url("https://i.postimg.cc/jLgyr7fy/human-skills.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150vh;
+    height: 31vh;
+}
+footer{
+    background-color: #3D2683;
+    text-align: center;
+    color: aliceblue;
+    font-size: 500;
+    height: 30px;
+
+}
+@media (max-width: 640px){
+    header{
+        font-size: 1em;
+    }
+    fieldset{
+        border-width: 2px;
+        border-style: groove;
+        border-color: rgb(192, 192, 192);
+        border-image: initial
+    }
+    #texte-supinfo{
+        margin-left: 10px;
+    }
+    #logo-supinfo{
+        margin-left: 10px;
+        height: 100px;
+        width: 100px;
+    }
+    nav{
+        background-color: #3D2683;
+        display:grid;
+        align-items: center;
+        justify-content: space-around;
+        height: 300px;
+        font-weight: 500;
+        margin: 0px;
+        border-radius: 5px;
+    }
+    .image-nav{
+        
+        align-items: center;
+        justify-content: space-around;
+        height:30px ;
+        padding-left: 30px;
+        padding-right: 30px;
+        border-radius: 5px;
+        background-color: aliceblue;
+        color: black;
+        text-decoration:none;
+        font-size: 1.5em;
+        margin: 10px;
+    
+    }
+    .image-nav:hover{
+        background-color: gray;
+    }
+    #contact{
+        font-size: 0.5em;
+    }
+    .div-main{
+        background-color: #3D2683;
+        border-radius: 10px;
+        color: aliceblue;
+        text-decoration:none;
+        font-size:1em;
+        font-weight: 400;
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+        align-items: center;
+    }
+    .image-main{
+        height:200px;
+        width: 300px;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
+    .ai-pic, .bd-pic , .ci-pic, .cs-pic, .is-pic, .hs-pic, .sales-pic, .web-pic, .pm-pic{
+        display: none;
+    }
+    }
+    
+
+
+
+
